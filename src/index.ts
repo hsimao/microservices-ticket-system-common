@@ -1,11 +1,6 @@
-interface Color {
-  red: number;
-  blue: number;
-  green: number;
-}
+export * from './errors';
 
-const color: Color = { red: 20, blue: 10, green: 10 };
-
-console.log(color);
-
-export default color;
+export * from './middlewares/current-user';
+export * from './middlewares/error-handler';
+export * from './middlewares/require-auth';
+export * from './middlewares/validate-request';
