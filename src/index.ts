@@ -5,4 +5,4 @@ export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
-// test update
+export * from './events';
